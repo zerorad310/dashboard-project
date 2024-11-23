@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:chartreuse;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1r 3fr 1fr;
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.sidebar {
+    background-color: aqua;
+    grid-area: 1/1/12/2;
+}
+
+.header {
+    background-color: aquamarine;
+    grid-area: 1/2/3/6;
+}
+.card_container {
+    background-color: bisque;
+    grid-area: 3/2/12/5;
+}
+.announcement_container {
+    background-color: blueviolet;
+    grid-area: 3/5/8/6;
+}
+.trending_container {
+    background-color: brown;
+    grid-area: 8/5/12/6;
+}
